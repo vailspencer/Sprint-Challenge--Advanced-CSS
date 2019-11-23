@@ -1,1 +1,44 @@
 // Navigation code here
+
+.nav-box {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #F6F6F6;
+    height: 80px;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-decoration: none !important;
+
+    .title-text {
+        display:flex;
+        align-content:center;
+        justify-content:center;
+        width:100%;
+        .page-style();
+        font-size: 30px;
+        padding-bottom: 10px;
+        text-decoration: none !important;
+    }
+
+    .nav-bar {
+        display:flex;
+        width:100%;
+        color:black;
+        font-size: 16px;
+        align-content:center;
+        justify-content:space-evenly;
+        text-decoration: none !important;
+ 
+    }
+}
+
+.anchor-style {
+    text-decoration:none;
+    color: black;
+}
+
+.header-img {
+    width:100%;
+    .img-mixin();
+}
