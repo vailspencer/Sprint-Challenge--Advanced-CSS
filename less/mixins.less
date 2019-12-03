@@ -1,1 +1,23 @@
 // Mixins Here
+
+.page-style() {
+    font-family: 'Russo One', sans-serif;
+    color: #23293B;
+}
+
+.img-mixin() {
+    width:100%;
+}
+
+.signup(@background,@textcolor) {
+    display:flex;
+    background-color:@background;
+    color:@textcolor;
+    text-decoration:none;
+    border-radius:10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 33%;
+    padding:12px;
+}
